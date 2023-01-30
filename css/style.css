@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Oxygen;
+}
+
+header {
+  font-weight: bold;
+  font-size: large;
+  background-color: rgb(140, 0, 255);
+  padding: 10px;
+}
+
+.fondo_1 {
+  background-image: url(../imgs/pexels-jatin-anand-128206.jpg);
+  background-size: 100%;
+  background-position: 100%;
+  padding: 150px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: rgb(255, 251, 18);
+  font-size: larger;
+  font-weight: 900;
+  border: medium;
+}
+
+.fondo_2 {
+  background-image: url(../imgs/pexels-pixabay-266666.jpg);
+  background-size: 100%;
+  background-position: 100%;
+  padding: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(247, 8, 8);
+  font-size: larger;
+  font-weight: 900;
+}
+
+footer {
+  background-color: blueviolet;
+  font-style: italic;
+  padding: 30px;
+  margin-top: 20px;
+}
