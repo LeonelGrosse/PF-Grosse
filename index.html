@@ -20,11 +20,9 @@
   </head>
   <body>
     <header>
-      <nav
-        class="navbar navbar-expand-lg bg-body-tertiary nav-justified flex-row-reverse"
-      >
+      <nav class="navbar navbar-expand-sm flex-row-reverse navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Inicio</a>
+          <a class="navbar-brand h1" href="index.html">Inicio</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -57,22 +55,15 @@
               <li class="nav-item">
                 <a class="nav-link" href="pages/contacto.html">Contacto</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ver Carrito</a>
+              </li>
             </ul>
           </div>
-          <form class="container-fluid justify-content-start">
-            <button class="btn btn-outline-success me-2" type="button">
-              Inicia Sesion
-            </button>
-            <button class="btn btn-outline-success me-2" type="button">
-              Registrate
-            </button>
-            <button class="btn btn-sm btn-outline-secondary" type="button">
-              Ver Carrito
-            </button>
-          </form>
         </div>
-        <div class="logo">
+        <div>
           <img
+            class="img-fluid"
             src="imgs/logo-reloj-removebg-preview.png"
             alt="Logo principal de reloj"
           />
@@ -80,39 +71,113 @@
       </nav>
     </header>
     <main>
-      <div class="fondo_1">
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Reprehenderit molestiae saepe ducimus dolorem provident natus in,
-          dolorum quam recusandae, ex rem aspernatur asperiores. At quibusdam
-          harum rerum numquam perspiciatis ducimus! Lorem ipsum, dolor sit amet
-          consectetur adipisicing elit. Quam doloremque soluta fugiat id
-          provident quae labore magnam quisquam laborum esse, commodi, ut eaque
-          mollitia earum ratione? Alias nemo vitae eos?
-        </p>
-      </div>
-      <div class="fondo_2">
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia,
-          voluptates tenetur, nihil, vel explicabo inventore nemo ad aliquid
-          excepturi quos aliquam voluptas harum! Tempore minima impedit nesciunt
-          veniam, amet voluptas! Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Et voluptatem quia eius asperiores id labore
-          quibusdam iure nam mollitia unde dicta aliquam, vitae quos molestiae
-          ipsam. Magnam sequi mollitia ipsa.
-        </p>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="imgs/pexels-jatin-anand-128206.jpg"
+              class="d-block w-100 img-fluid"
+              alt="Reloj blanco y negro"
+            />
+            <div class="carousel-caption">
+              <h5>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi,
+                nemo?
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia tempora totam exercitationem sit rerum aliquid suscipit
+                ad nostrum excepturi ipsa, alias praesentium ea soluta quae
+                voluptate nisi eos veritatis fuga.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="imgs/pexels-pixabay-266666.jpg"
+              class="d-block w-100 img-fluid"
+              alt="Reloj en sendero de bosque"
+            />
+            <div class="carousel-caption">
+              <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+                nemo.
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+                et autem asperiores reiciendis voluptas velit facilis placeat
+                cum repudiandae, nostrum quod. Aliquam officia optio at
+                cupiditate suscipit est qui aut!
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </main>
     <footer>
-      <div>Canales Oficiales:</div>
-      <div>
-        <img src="imgs/facebook.png" alt="Logo_Facebook" />
-        <img src="imgs/twitter.png" alt="Logo_Twitter" />
-        <img src="imgs/instagram.png" alt="Logo_Instagram" />
-        <img src="imgs/youtube.png" alt="Logo_Youtube" />
-        <img src="imgs/tik-tok.png" alt="Logo_Tik_Tok" />
+      <p>Canales Oficiales:</p>
+      <div class="logosRedesSociales">
+        <img
+          src="imgs/facebook.png"
+          alt="Logo_Facebook"
+          class="logo-fb img-fluid"
+        />
+        <img
+          src="imgs/twitter.png"
+          alt="Logo_Twitter"
+          class="logo-tw img-fluid"
+        />
+        <img
+          src="imgs/instagram.png"
+          alt="Logo_Instagram"
+          class="logo-ig img-fluid"
+        />
+        <img
+          src="imgs/youtube.png"
+          alt="Logo_Youtube"
+          class="logo-yt img-fluid"
+        />
+        <img
+          src="imgs/tik-tok.png"
+          alt="Logo_Tik_Tok"
+          class="logo-tt img-fluid"
+        />
       </div>
-      <button>Modo Oscuro</button>
+      <button type="button" class="btn btn-primary">Modo Oscuro</button>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

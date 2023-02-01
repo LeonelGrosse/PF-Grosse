@@ -2,41 +2,68 @@ body {
   font-family: Oxygen;
 }
 
-header {
-  font-weight: bold;
-  font-size: large;
-  background-color: rgb(151, 208, 212);
-  padding: 5px;
-}
-
-.fondo_1 {
-  background-image: url(../imgs/pexels-jatin-anand-128206.jpg);
-  background-size: 100%;
-  background-position: 100%;
-  padding: 150px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  color: rgb(255, 251, 18);
-  font-size: larger;
-  font-weight: 900;
-  border: medium;
-}
-
-.fondo_2 {
-  background-image: url(../imgs/pexels-pixabay-266666.jpg);
-  background-size: 100%;
-  background-position: 100%;
-  padding: 300px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: rgb(247, 8, 8);
-  font-size: larger;
-  font-weight: 900;
-}
-
 footer {
-  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.822);
   font-style: italic;
+  color: azure;
   padding: 30px;
-  margin-top: 20px;
+}
+
+footer button {
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  width: auto;
+  padding: 5px 10px;
+  font-size: small;
+}
+
+.logosRedesSociales {
+  display: flex;
+  height: 34px;
+  width: 300px;
+  justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  nav div img {
+    opacity: 0;
+  }
+  a.navbar-brand.h1 {
+    font-size: 160%;
+  }
+  header {
+    height: 260px;
+  }
+  footer {
+    font-size: 15px;
+    font-style: normal;
+  }
+  .logo-fb {
+    height: 24px;
+    width: 24px;
+  }
+  .logosRedesSociales {
+    display: flex;
+    height: 24px;
+    justify-content: space-between;
+  }
+  button.btn.btn-primary {
+    display: flex;
+    width: 70px;
+    height: 60px;
+    font-size: 15px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 992px) {
 }
