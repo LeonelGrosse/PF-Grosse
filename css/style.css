@@ -4,6 +4,7 @@ body {
 
 footer {
   display: flex;
+  position: relative;
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.822);
   font-style: italic;
@@ -15,7 +16,6 @@ footer button {
   background-color: white;
   color: black;
   border-radius: 12px;
-  width: auto;
   padding: 5px 10px;
   font-size: small;
 }
@@ -49,12 +49,14 @@ footer button {
     display: flex;
     height: 24px;
     justify-content: space-between;
+    width: 200px;
   }
   button.btn.btn-primary {
     display: flex;
-    width: 70px;
-    height: 60px;
-    font-size: 15px;
+    height: 40px;
+    width: 60px;
+    font-size: x-small;
+    margin: 1mm;
   }
   h5 {
     font-size: 15px;
@@ -63,7 +65,4 @@ footer button {
   p {
     font-size: 10px;
   }
-}
-
-@media (max-width: 992px) {
 }
