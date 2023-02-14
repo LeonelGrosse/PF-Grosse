@@ -1,0 +1,20 @@
+{
+  "name": "preentrega1-grosse",
+  "version": "1.0.0",
+  "description": "Pagina de servicios y compra de relojes Casio y Rolex",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonelGrosse/PreEntrega2-Grosse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonelGrosse/PreEntrega2-Grosse/issues"
+  },
+  "homepage": "https://github.com/LeonelGrosse/PreEntrega2-Grosse#readme"
+}

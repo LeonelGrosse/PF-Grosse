@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Oxygen;
+}
+
+@media (max-width: 576px) {
+  nav div img {
+    opacity: 0;
+  }
+  a.navbar-brand.h1 {
+    font-size: 160%;
+  }
+  header {
+    height: 260px;
+  }
+  footer {
+    font-size: 15px;
+    font-style: normal;
+  }
+  .logo-fb {
+    height: 24px;
+    width: 24px;
+  }
+  .logosRedesSociales {
+    display: flex;
+    height: 24px;
+    justify-content: space-between;
+    width: 200px;
+  }
+  button.btn.btn-primary {
+    display: flex;
+    height: 40px;
+    width: 60px;
+    font-size: x-small;
+    margin: 1mm;
+  }
+  h5 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}
