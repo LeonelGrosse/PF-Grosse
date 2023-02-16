@@ -190,12 +190,18 @@ footer button {
 
 .contacto-3 {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
 }
 
 .imagen-contacto {
   height: 800px;
   width: 100%;
+}
+
+h4 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
