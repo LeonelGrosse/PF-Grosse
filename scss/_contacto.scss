@@ -1,7 +1,7 @@
 .contacto-1 {
   position: relative;
   text-align: center;
-  color: white;
+  color: $blanco;
 }
 
 .contacto-texto {
@@ -9,7 +9,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(8, 248, 248);
+  color: $celeste;
   font-weight: bold;
 }
 
@@ -30,4 +30,17 @@
 .imagen-contacto {
   height: 800px;
   width: 100%;
+}
+
+@media (max-width: 576px) {
+  .contacto-texto {
+    font-size: medium;
+  }
+  .mapa {
+    display: flex;
+    width: 80%;
+  }
+  .contacto-1 {
+    display: flex;
+  }
 }

@@ -1,18 +1,15 @@
 .servicios-1 {
   display: flex;
   margin-bottom: 2px;
-  background: rgb(34, 193, 195);
-  background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
-  );
+  background: $celeste;
+  background: linear-gradient(0deg, $celeste 0%, $naranja);
 }
 
 .servicios-texto-1 {
   display: flex;
   align-self: center;
   font-weight: bold;
+  font-size: large;
 }
 
 .servicios-texto-2 {
@@ -23,12 +20,8 @@
 
 .fondo-texto-2 {
   margin-bottom: -16px;
-  background: rgb(238, 174, 202);
-  background: linear-gradient(
-    90deg,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 233, 158, 1) 100%
-  );
+  background: $rosa;
+  background: linear-gradient(90deg, $rosa 0%, $verde);
 }
 
 .imagen-servicios-1 {

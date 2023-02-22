@@ -2,15 +2,15 @@ footer {
   display: flex;
   position: relative;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.822);
+  background-color: $negro;
   font-style: italic;
   color: azure;
   padding: 30px;
 }
 
 footer button {
-  background-color: white;
-  color: black;
+  background-color: $blanco;
+  color: $negro;
   border-radius: 12px;
   padding: 5px 10px;
   font-size: small;

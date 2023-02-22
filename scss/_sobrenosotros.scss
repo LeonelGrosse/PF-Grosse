@@ -12,8 +12,19 @@
   font-weight: bold;
 }
 
+.texto-sobrenosotros {
+  font-weight: bold;
+}
+
 @media (max-width: 576px) {
   .texto-sobrenosotros {
     font-size: larger;
+    margin-top: 5px;
+    .video {
+      width: auto;
+    }
+    svg {
+      display: flex;
+    }
   }
 }

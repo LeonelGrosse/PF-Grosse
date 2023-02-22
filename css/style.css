@@ -50,15 +50,15 @@ footer {
   display: flex;
   position: relative;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.822);
+  background-color: #000000;
   font-style: italic;
   color: azure;
   padding: 30px;
 }
 
 footer button {
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
   border-radius: 12px;
   padding: 5px 10px;
   font-size: small;
@@ -82,6 +82,7 @@ footer button {
   display: flex;
   align-self: center;
   font-weight: bold;
+  font-size: large;
 }
 
 .servicios-texto-2 {
@@ -161,15 +162,26 @@ footer button {
   font-weight: bold;
 }
 
+.texto-sobrenosotros {
+  font-weight: bold;
+}
+
 @media (max-width: 576px) {
   .texto-sobrenosotros {
     font-size: larger;
+    margin-top: 5px;
+  }
+  .texto-sobrenosotros .video {
+    width: auto;
+  }
+  .texto-sobrenosotros svg {
+    display: flex;
   }
 }
 .contacto-1 {
   position: relative;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 .contacto-texto {
@@ -177,7 +189,7 @@ footer button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(8, 248, 248);
+  color: rgb(34, 193, 195);
   font-weight: bold;
 }
 
@@ -200,8 +212,21 @@ footer button {
   width: 100%;
 }
 
-h4 {
+@media (max-width: 576px) {
+  .contacto-texto {
+    font-size: medium;
+  }
+  .mapa {
+    display: flex;
+    width: 80%;
+  }
+  .contacto-1 {
+    display: flex;
+  }
+}
+h1 {
   text-align: center;
+  font-size: x-large;
 }
 
 /*# sourceMappingURL=style.css.map */
