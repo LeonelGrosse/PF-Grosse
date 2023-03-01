@@ -1,6 +1,7 @@
 .servicios-1 {
   display: flex;
   margin-bottom: 2px;
+  margin-top: -10px;
   background: $celeste;
   background: linear-gradient(0deg, $celeste 0%, $naranja);
 }
@@ -49,11 +50,16 @@
   margin-top: -16px;
 }
 
+.h1-servicios {
+  background: $rosa;
+  background: linear-gradient(90deg, $rosa 0%, $verde);
+}
+
 @media (max-width: 576px) {
   .servicios-1 {
     display: flex;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: -10px;
   }
   .servicios-2 {
     display: flex;
@@ -73,5 +79,8 @@
     width: 100%;
     height: 600px;
     display: flex;
+  }
+  .servicios-texto-2 {
+    font-size: larger;
   }
 }

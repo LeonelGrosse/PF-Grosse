@@ -1,19 +1,10 @@
-.sobre-nosotros-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-weight: bold;
-}
-
-.sobre-nosotros-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-weight: bold;
-}
-
 .texto-sobrenosotros {
   font-weight: bold;
+}
+
+.video {
+  margin-bottom: 10px;
+  display: flex;
 }
 
 @media (max-width: 576px) {
@@ -22,9 +13,6 @@
     margin-top: 5px;
     .video {
       width: auto;
-    }
-    svg {
-      display: flex;
     }
   }
 }
